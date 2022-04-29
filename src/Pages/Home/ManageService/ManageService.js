@@ -8,7 +8,7 @@ const ManageService = () => {
 const procced = window.confirm('are your sure to delete this data?');
 
 if(procced){
-    const url =  `http://localhost:5000/service/${id}`; 
+    const url =  `https://frozen-garden-38133.herokuapp.com/service/${id}`; 
 
     fetch(url,{
         method: "DELETE"
